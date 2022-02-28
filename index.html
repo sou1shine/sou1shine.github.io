@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shin's Portfolio</title>
+    <meta name="description" content="웹개발자 신태일의 포트폴리오입니다.">
+    <meta name="author" content="Shin">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <script src="https://kit.fontawesome.com/66b117faa8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@500&family=Source+Sans+Pro:wght@600&display=swap"
+        rel="stylesheet">
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="navbar__logo">
+            <i class="fa-regular fa-face-smile"></i>
+            <a href="#">Shin</a>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item active" data-link="#home">Home</li>
+            <li class="navbar__menu__item" data-link="#about">About</li>
+            <li class="navbar__menu__item" data-link="#skill">Skill</li>
+            <li class="navbar__menu__item" data-link="#work">MyWork</li>
+            <li class="navbar__menu__item" data-link="#contact">Contact</li>
+        </ul>
+        <!-- Toggle button -->
+        <button class="navbar__toggle-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="home_container">
+            <img src="images/20190424_222341.jpg" alt="Shin's profile photo" class="home__avatar">
+            <h1 class="home__title">안녕하세요.<br /> 웹 프론트앤드 개발자 신태일입니다.</h1>
+            <h2 class="home__descrpition">프론트앤드와 백앤드를 넘나드는 웹개발자입니다.</h2>
+            <button class="home__contact">CONTACT ME</button>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section__container">
+        <div class="about_container">
+            <h1>About me</h1>
+            <p>도전을 두려워하지 않으며 목표를 달성하기 위해 최선을 다합니다. 제 특기는 문제해결 능력입니다. 어떤 문제라도 분석해도 답을 찾아내는 것이 특기입니다.</p>
+            <div class="about__majors">
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <h2 class="major__title">Front-end</h2>
+                    <div class="major__description">
+                        Html, CSS, JavaScript, jQuery,<br /> Web APIs
+                    </div>
+                </div>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fa-brands fa-java"></i>
+                    </div>
+                    <h2 class="major__title">Back-end</h2>
+                    <div class="major__description">
+                        Java,Spring Boot,Spring MVC,<br />Rest APIs,Oracle,NySql,MS-Sql
+                    </div>
+                </div>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <h2 class="major__title">Server</h2>
+                    <div class="major__description">
+                        Jeus,WebtoB,Tomcat,Apache
+                    </div>
+                </div>
+            </div>
+            <div class="experience">
+                <h1>Experience</h1>
+                <div class="experience__timeline">
+                    <div class="timeline__point">
+                        <div class="timeline__block">
+                            <span class="timeline__date">March 2013 – December 2013</span>
+                            <div class="timeline__icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+
+                            <div class="timeline__content">
+                                <h2>위즈온</h2>
+                                <h3>웹개발자 사원</h3>
+                                <p>보건의료정보원 프로젝트 개발 참여</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline__point">
+                        <div class="timeline__block">
+                            <span class="timeline__date">February 2014 – August 2014</span>
+                            <div class="timeline__icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="timeline__content">
+                                <h2>소프트웨어메이크</h2>
+                                <h3>웹개발자 대리</h3>
+                                <p>계약직</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline__point">
+                        <div class="timeline__block">
+                            <span class="timeline__date">June 2015 – Januay 2019</span>
+                            <div class="timeline__icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+
+                            <div class="timeline__content">
+                                <h2>씨아이네트웍스</h2>
+                                <h3>웹개발자 과장</h3>
+                                <p>SK네트웍스 내 프로젝트 다수 참여</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill -->
+    <section id="skill" class="section">
+        <div class="section__container">
+            <h1>Skills</h1>
+            <h2>Skills & Attributes</h2>
+            <p>
+                새로운 것을 배우는 데에 거부감이 없으며, 원리를 이해하는 것에 흥미를 갖고 있습니다. 팀과 커뮤니케이션 하는 것에 잘 적응 할 수 있으며, 혼자서도 일 할 수 있습니다. 플랜을 지키려고
+                노력하며 책임감을 가지고 일 할 수 있습니다.
+            </p>
+            <div class="skillset">
+                <div class="skillset__left">
+                    <h3 class="skillset__title">Skills</h3>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>HTML</span>
+                            <span>99%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value" style="width: 99%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>CSS</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>JavaScript</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>jQuery</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>REACT</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value" style="width: 30%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skillset__right">
+                    <div class="tools">
+                        <h3 class="skillset__title">Tools</h3>
+                        <ul class="tools_list">
+                            <li><span>Eclipse</span></li>
+                            <li><span>Visual Studio Code</span></li>
+                            <li><span>SQL gate</span></li>
+                            <li><span>SQL developer</span></li>
+                        </ul>
+                    </div>
+                    <div class="etc">
+                        <h3 class="skillset__title">Etc</h3>
+                        <ul class="etc__list">
+                            <li><span>Linux</span></li>
+                            <li><span>Trouble Shooting</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Work -->
+    <section id="work" class="section">
+        <div class="section__container">
+            <h1>My work</h1>
+            <h3>Projects</h3>
+            <div class="work__categories">
+                <button class="category__btn selected" data-filter="*">All<span
+                        class="category__count">6</span></button>
+                <button class="category__btn" data-filter="web">Web<span class="category__count">5</span></button>
+                <button class="category__btn" data-filter="mobile">Mobile<span class="category__count">3</span></button>
+            </div>
+            <div class="work__projects">
+                <a href="https://www.thepinx.co.kr" class="project" target="_blank" data-type="*">
+                    <img src="images/projects/더핀크스.png" class="project__img" alt="더 핀크스호텔">
+                    <div class="project__description">
+                        <h3>더 핀크스 호텔 Site</h3>
+                        <span>#Java #JavaScript #Spring #Ajax #jquery #MyBatis #Oracle #Jeus #WebtoB</span>
+                    </div>
+                </a>
+                <a href="https://parts.speedmate.com" class="project" target="_blank" data-type="web">
+                    <img src="images/projects/parts.png" class="project__img" alt="스피드메이트부품사이트">
+                    <div class="project__description">
+                        <h3>스피드메이트 부품 외국어 Site</h3>
+                        <span>#Java #JavaScript #Spring #Ajax #jquery #MyBatis #Oracle #MSsql #Tomcat #Apache</span>
+                    </div>
+                </a>
+                <a href="#none" class="project" data-type="*">
+                    <img src="images/projects/비오토피아박물관.png" class="project__img" alt="비오토피아박물관">
+                    <div class="project__description">
+                        <h3>비오토피아 박물관 예약 Site</h3>
+                        <span>#Java #JavaScript #Spring #Ajax #jquery #MyBatis #Oracle #Tomcat #Apache</span>
+                    </div>
+                </a>
+                <a href="#none" class="project" data-type="web">
+                    <img src="images/projects/sjyp.png" class="project__img" alt="sjyp">
+                    <div class="project__description">
+                        <h3>SJYP LookBook Site</h3>
+                        <span>#Java #JavaScript #Spring #Ajax #jquery #MyBatis #Oracle #Jeus #WebtoB</span>
+                    </div>
+                </a>
+                <a href="https://hins.or.kr" class="project target=" _blank" data-type="web">
+                    <img src="images/projects/hins.png" class="project__img" alt="보건의료정보표준사이트">
+                    <div class="project__description">
+                        <h3>보건의료정보표준 Site</h3>
+                        <span>#전자정부표준프레임워크 #java #javaScript #jquery #iBatis #Oracle #Jeus #WebtoB</span>
+                    </div>
+                </a>
+                <a href="#none" class="project"  data-type="mobile">
+                    <img src="images/projects/스피드메이트 모바일.png" class="project__img" alt="스피드메이트모바일">
+                    <div class="project__description">
+                        <h3>스피드메이트 Mobile Site</h3>
+                        <span>#Java #JavaScript #Spring #Ajax #jquery #iBatis #Oracle #Jeus #WebtoB</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Let's talk</h1>
+        <h2 class="contact__email">soulshine@hotmail.co.kr</h2>
+        <div class="contact__links">
+            <a href="http://qr.kakao.com/talk/QL19LsZtrxQHftokYHSgKggCVRU-">
+                <span class="iconify" data-icon="vs:kakaotalk"></span>
+            </a>
+            <a href="tel:010-4320-1055">
+                <i class="fa-solid fa-phone"></i>
+            </a>
+
+        </div>
+        <p class="contact__right">
+            2022 Shin Taeil - All right reserved
+        </p>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow__up">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+</body>
+
+</html>
